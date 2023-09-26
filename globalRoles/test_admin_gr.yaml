@@ -1,0 +1,13 @@
+apiVersion: management.cattle.io/v3
+kind: GlobalRole
+metadata:
+  name: test-admin
+rules:
+  - apiGroups:
+      - '*'
+    resources:
+      - '*'
+    verbs:
+      - '*'
+inheritedClusterRoles:
+  - cluster-owner

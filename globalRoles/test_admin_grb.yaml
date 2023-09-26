@@ -1,0 +1,6 @@
+apiVersion: management.cattle.io/v3
+kind: GlobalRoleBinding
+metadata:
+  name: test-admin-grb
+globalRoleName: test-admin
+userName: u-fpdhc
